@@ -1,0 +1,41 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Lucida Sans', Arial, Sans-serif;
+    /* background-image: url("table.png"); //imagenot working */
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+    
+}
+
+#message-el, {
+    font-style: italic;
+}
+
+#cards-el #sum-el {
+
+}
+/* Make sure that the two buttons have some space between
+each other when they are rendered out vertically */
+button {
+    cursor: pointer;
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    display: block; /*displayed buttons vertically*/
+    margin: auto;
+    margin-bottom: 4px; /*created space between blocks! */
+    margin-top: 4px; 
+}
